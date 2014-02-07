@@ -38,6 +38,7 @@ __Basic concepts__:
 - BEM Naming convention => Block__Element--Modifier
 - Use classes for styling, IDs as javascript hooks
 - Include Aria-roles
+
 #### CSS
 - Don't use spaghetti selectors e.g. `header nav ul li a`. Apply Inception rule => Never go deeper than three levels
 - Don't use overly qualified selectors e.g. `.block .block__element` => .block__element should always reside inside .block
@@ -45,6 +46,7 @@ __Basic concepts__:
 - Avoid margin-top and margin-bottom. Elements should always push in one direction.
 - Use REMs for font declarations.
 - Images/icons inserted via css should feature a fallback text for screen readers
+
 #### JavaScript
 - 'use strict'; mode
 - Use JSHint for linting
