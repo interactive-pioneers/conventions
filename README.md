@@ -20,7 +20,7 @@ commits should be avoided so producing a patch or merging code remains reasonabl
 
     SCROLLER-123 Scrolling broken on large text areas
     http://bugs.domain.com/SCROLLER-123
-    ```   
+    ```
 
 ## Coding conventions
 
@@ -28,29 +28,29 @@ Coding conventions for various technologies and frameworks follow the generic in
 
 __Basic concepts__:
 - __DRY__. Don't Repeat Yourself.
-- __Modular & reusable__. 
+- __Modular & reusable__.
 - __Readability__.
 - __Seamless formatting__. No formatting variability across a project.
 
 ### Front-end
 #### HTML
-- Use semantic Markup
-- BEM Naming convention => Block__Element--Modifier
-- Use classes for styling, IDs as javascript hooks
+- Use semantic markup
+- BEM Naming convention: `Block__Element--Modifier`
+- Use classes for styling, IDs for JavaScript hooks
 - Include Aria-roles
 
 #### CSS
-- Don't use spaghetti selectors e.g. `header nav ul li a`. Apply Inception rule => Never go deeper than three levels
-- Don't use overly qualified selectors e.g. `.block .block__element` => .block__element should always reside inside .block
-- When using calc(), add a comment on the logic behind it e.g. `calc( 100% - 5px) /* - 5px pixel to account for the border */
-- Avoid margin-top and margin-bottom. Elements should always push in one direction.
-- Use REMs for font declarations.
-- Images/icons inserted via css should feature a fallback text for screen readers
+- Don't use spaghetti selectors e.g. `header nav ul li a`. Apply Inception rule: Never go deeper than three levels
+- Don't use overly qualified selectors e.g. `.block .block__element` => `.block__element` should always reside inside `.block`
+- When using calc(), add a comment on the logic behind it e.g. `calc( 100% - 5px) /* - 5px pixel to account for the border */`
+- Avoid `margin-top` and `margin-bottom`. Elements should always push in one direction
+- Use REMs for font declarations
+- Images/icons inserted via CSS should feature a fallback text for screen readers
 
 #### JavaScript
-- 'use strict'; mode
+- `'use strict';` mode
 - Use JSHint for linting
-- Use inline comments where it's sensible, Block comments for functions and plugins
+- Use inline comments where it's sensible, block comments for functions and plugins
 - Always use closure
 
 ### Backend
