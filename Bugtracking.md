@@ -18,26 +18,21 @@ Every bug has to be reported in a format that allows to easily understand and re
 ### Subject
 Subject of the bug report must be descriptive and short.
 
-Bad examples:
-- `This is not working`
-- `My computer does not display it`
-- `Crash`
-
 __Good examples__:
 - `Submission results in Error on empty email`
 - `Blank screen on first view of Summary`
 - `Form has no subject field`
+
+Bad examples:
+- `This is not working`
+- `My computer does not display it`
+- `Crash`
 
 ### Body
 Every bug report should be described in 3 sections:
 - How to reproduce it
 - What happened
 - What should happen
-
-Bad example:
-```
-Something went wrong, it's no more working.
-```
 
 __Good example__:
 ```
@@ -49,6 +44,11 @@ Steps to reproduce:
 What happens: submission results in Error on empty email
 
 What should happen: submission should not result in Error on empty email as it is not a mandatory field
+```
+
+Bad example:
+```
+Something went wrong, it's no more working.
 ```
 
 ### Additional information
