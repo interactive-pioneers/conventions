@@ -7,7 +7,7 @@ This document describes bug/issue tracking and reporting requirements.
 Use of issue/bug tracking system is strongly advised.
 
 Recommendations:
-- Jira (https://www.atlassian.com/software/jira)
+- [Jira](https://www.atlassian.com/software/jira)
 - [Bugzilla](https://bugzilla.mozilla.org)
 - [Trac](http://trac.edgewall.org)
 
@@ -30,9 +30,9 @@ __Good examples__:
 
 ### Body
 Every bug report should be described in 3 sections:
-# How to reproduce it
-# What happened
-# What should happen
+- How to reproduce it
+- What happened
+- What should happen
 
 Bad example:
 ```
