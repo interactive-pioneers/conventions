@@ -1,8 +1,9 @@
 # Developer Conventions
 Conventions for development and workflows across web application development technologies.
 
-## VCS
+## Version Control System
 ### Git
+#### Commits
 1. __No mammoth commits__. Every commit should be modular and feature or fix based. Complex
 commits should be avoided so producing a patch or merging code remains reasonable and inexpensive.
 2. __Every commit has a comment__. If no comment comes to mind, the whole commit should be questioned. Comment requirements:
@@ -21,6 +22,10 @@ commits should be avoided so producing a patch or merging code remains reasonabl
     SCROLLER-123 Scrolling broken on large text areas
     http://bugs.domain.com/SCROLLER-123
     ```
+
+#### Tagging
+1. __Every release has a tag__. No release is made without a tag. Every current and future member of the team needs to be able to identify what was the exact state of the release.
+2. __Tags are _semver_ compatible__. All tags follow [Semantic Versioning](http://semver.org). For example: `v0.1.2` or `v1.2.13`. Increasing a version number should depend on the nature of the update as by the concepts of _semver_ and is extremely important for software that can become a dependency (RubyGems, Bower, NPM, etc.). __Incorrect versioning of a library could break software that is depending on it!__
 
 ## Coding conventions
 
