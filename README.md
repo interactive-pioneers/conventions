@@ -26,6 +26,7 @@ commits should be avoided so producing a patch or merging code remains reasonabl
 #### Tagging
 1. __Every release has a tag__. No release is made without a tag. Every current and future member of the team needs to be able to identify what was the exact state of the release.
 2. __Tags are _semver_ compatible__. All tags follow [Semantic Versioning](http://semver.org). For example: `v0.1.2` or `v1.2.13`. Increasing a version number should depend on the nature of the update as by the concepts of _semver_ and is extremely important for software that can become a dependency (RubyGems, Bower, NPM, etc.). __Incorrect versioning of a library could break software that is depending on it!__
+3. __Prerelease tagging is OK__. If you're not sure about the release and it needs additional evaluation, use a suffix so it becomes self-explanatory, e.g. `v1.2.3-a1`, `v0.2.4-b2`, `v2.2.9-rc3` for Alpha 1, Beta 2, Release Candidate 3, respectively.
 
 ## Coding conventions
 
