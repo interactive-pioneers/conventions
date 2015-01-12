@@ -44,6 +44,13 @@ __Basic concepts__:
 - BEM Naming convention: `Block__Element--Modifier`
 - Use classes for styling, IDs for JavaScript hooks
 - Include Aria-roles
+##### Microdata
+Make appropriate use of microdata e.g. <br>
+`<div itemscope itemtype="http://schema.org/Person">`
+&nbsp;&nbsp;`<a itemprop="url" href="http://www.interactive-pioneers.de"><div itemprop="name"><strong>John Doe</strong></div>
+</a>`
+&nbsp;&nbsp;`<div itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Interactive Pioneers</span></div><div itemprop="jobtitle">Developer</div>`<br>
+`</div>`
 
 #### CSS
 - Don't use spaghetti selectors e.g. `header nav ul li a`. Apply Inception rule: Never go deeper than three levels
