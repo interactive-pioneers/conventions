@@ -47,7 +47,7 @@ __Basic concepts__:
 Aria roles should be used to improve accessibility.
 This is not only applicable to the structure of a page (e.g. [Website structure with Aria roles](http://www.html5accessibility.com/tests/roles-land.html)) but also to link elements which only share a visual bond e.g. a tooltip:<br>
 `<input type="text" id="password" aria-describedby="password-tip" required>`<br>
-`<div role="tooltip" id="password-tip">At least 8 characters long</div>`
+`<div role="tooltip" id="password-tip">At least 8 characters long</div>`<br>
 For more see [MDN on ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
 
 ##### Microdata
@@ -56,7 +56,8 @@ Make appropriate use of microdata e.g. <br>
 &nbsp;&nbsp;`<a itemprop="url" href="http://www.interactive-pioneers.de"><div itemprop="name"><strong>John Doe</strong></div>
 </a>`
 &nbsp;&nbsp;`<div itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Interactive Pioneers</span></div><div itemprop="jobtitle">Developer</div>`<br>
-`</div>`
+`</div>`<br>
+For more see [schema.org](schema.org) and [schema creator](schema-creator.org)
 
 #### CSS
 - Don't use spaghetti selectors e.g. `header nav ul li a`. Apply Inception rule: Never go deeper than three levels
