@@ -43,7 +43,13 @@ __Basic concepts__:
 - Use semantic markup
 - BEM Naming convention: `Block__Element--Modifier`
 - Use classes for styling, IDs for JavaScript hooks
-- Include Aria-roles
+##### Aria-roles
+Aria roles should be used to improve accessibility.
+This is not only applicable to the structure of a page (e.g. [Website structure with Aria roles](http://www.html5accessibility.com/tests/roles-land.html)) but also to link elements which only share a visual bond e.g. a tooltip:<br>
+`<input type="text" id="password" aria-describedby="password-tip" required>`<br>
+`<div role="tooltip" id="password-tip">At least 8 characters long</div>`
+For more see [MDN on ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+
 ##### Microdata
 Make appropriate use of microdata e.g. <br>
 `<div itemscope itemtype="http://schema.org/Person">`
