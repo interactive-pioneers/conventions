@@ -76,9 +76,13 @@ __Basic concepts__:
 - Don't use spaghetti selectors e.g. `header nav ul li a`. Apply Inception rule: Never go deeper than three levels
 - Don't use overly qualified selectors e.g. `.block .block__element` => `.block__element` should always reside inside `.block`
 - When using calc(), add a comment on the logic behind it e.g. `calc( 100% - 5px) /* - 5px pixel to account for the border */`
-- Avoid `margin-top` and `margin-bottom`. Elements should always push in one direction
+- Avoid `margin-top` and `margin-bottom` on the same element. Elements should always push in one direction (preferably downwards)
 - Use REMs for font declarations
 - Images/icons inserted via CSS should feature a fallback text for screen readers
+- __Declaration order__ (as per [Nicolas Gallagher's Idiomatic CSS](https://github.com/necolas/idiomatic-css))
+  1. Positioning
+  2. Display & Box Model
+  3. Other
 
 #### JavaScript
 - `'use strict';` mode
