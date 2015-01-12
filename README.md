@@ -43,6 +43,16 @@ __Basic concepts__:
 - Use semantic markup
 - BEM Naming convention: `Block__Element--Modifier`
 - Use classes for styling, IDs for JavaScript hooks
+
+##### Attribute order
+HTML attributes should follow this order for easier reading and avoiding duplicates
+- `class`
+- `id, name`
+- `data-*`
+- `src, for, type, href, value`
+- `title, alt`
+- `aria-*, role`
+
 ##### Aria-roles
 Aria roles should be used to improve accessibility.
 This is not only applicable to the structure of a page (e.g. [Website structure with Aria roles](http://www.html5accessibility.com/tests/roles-land.html)) but also to link elements which only share a visual bond e.g. a tooltip:<br>
