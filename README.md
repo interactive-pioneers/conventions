@@ -41,8 +41,15 @@ __Basic concepts__:
 ### Front-end
 #### HTML
 - Use semantic markup
-- BEM Naming convention: `Block__Element--Modifier`
 - Use classes for styling, IDs for JavaScript hooks
+- __BEM Naming convention__  
+  BEM naming convention is used to give meaning and relations to css classes. Use in the following manner:
+  - `.block`  
+  - `.block__element`  
+  - `.block--modifier` 
+ 
+  E.g. `<div class="portfolio__entry portfolio__entry--active"></div>`  
+  For more see [BEM explained by Harry Roberts](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 - __Attribute order__  
   HTML attributes should follow this order for easier reading and avoiding duplicates
   - `class`
