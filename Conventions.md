@@ -7,6 +7,4 @@ Coding conventions for various technologies and frameworks follow the generic in
   - [HTML](HTML.md)
   - [CSS](CSS.md)
   - [JavaScript](JavaScript.md)
-- Backend
-  - [Ruby](Ruby.md)
-  - [PHP](PHP.md)
+- [Backend](Backend.md)
