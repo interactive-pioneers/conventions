@@ -3,6 +3,8 @@ Conventions for development and workflows across web application development tec
 
 - [Version Control](VCS.md)
 - [Deployment](Deployment.md)
+- QA
+  - [Bug tracking](Bugtracking.md)
 
 ## Coding conventions
 
