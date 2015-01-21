@@ -2,6 +2,7 @@
 Conventions for development and workflows across web application development technologies.
 
 - [Version Control](VCS.md)
+- [Deployment](Deployment.md)
 
 ## Coding conventions
 
