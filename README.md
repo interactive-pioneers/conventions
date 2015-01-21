@@ -3,6 +3,7 @@
 Conventions for development and workflows across web application development technologies.
 
 - [Version Control](VCS.md)
+- Ticketing
 - [Coding conventions](Conventions.md)
   - [Basic concepts](Basics.md)
   - [Front-end](Frontend.md)
@@ -10,6 +11,7 @@ Conventions for development and workflows across web application development tec
     - [CSS](CSS.md)
     - [JavaScript](JavaScript.md)
   - [Backend](Backend.md)
-- [Deployment](Deployment.md)
 - QA
+  - Test-driven development
   - [Bug tracking](Bugtracking.md)
+- [Deployment](Deployment.md)
