@@ -8,11 +8,11 @@ Conventions for development and workflows across web application development tec
 - Ticketing
 - [Coding conventions](Conventions.md)
   - [Basic concepts](Basics.md)
-  - [Front-end](Frontend.md)
-    - [HTML](HTML.md)
-    - [CSS](CSS.md)
-    - [JavaScript](JavaScript.md)
-  - [Backend](Backend.md)
+  - [HTML](HTML.md)
+  - [CSS](CSS.md)
+  - [JavaScript](JavaScript.md)
+  - Ruby
+  - PHP
 - QA
   - Test-driven development
   - [Bug tracking](Bugtracking.md)
