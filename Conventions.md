@@ -3,8 +3,8 @@
 Coding conventions for various technologies and frameworks follow the generic industry standard, i.e. those defined by the maintaining organisation or community.
 
 - [Basic concepts](Basics.md)
-- Front-end
-  - [HTML](HTML.md)
-  - [CSS](CSS.md)
-  - [JavaScript](JavaScript.md)
-- [Backend](Backend.md)
+- [HTML](HTML.md)
+- [CSS](CSS.md)
+- [JavaScript](JavaScript.md)
+- Ruby
+- PHP
