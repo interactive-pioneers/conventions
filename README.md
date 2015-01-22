@@ -2,6 +2,8 @@
 
 Conventions for development and workflows across web application development technologies.
 
+## Summary
+
 - [Version Control](VCS.md)
 - Ticketing
 - [Coding conventions](Conventions.md)
@@ -15,3 +17,9 @@ Conventions for development and workflows across web application development tec
   - Test-driven development
   - [Bug tracking](Bugtracking.md)
 - [Deployment](Deployment.md)
+
+## Various configuration files
+
+Following configuration files can be used in accordance to the coding conventions:
+
+- [.jshintrc](.rc/.jshintrc) for [JSHint](jshint/jshint)
