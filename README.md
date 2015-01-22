@@ -22,4 +22,4 @@ Conventions for development and workflows across web application development tec
 
 Following configuration files can be used in accordance to the coding conventions:
 
-- [.jshintrc](.rc/.jshintrc) for [JSHint](jshint/jshint)
+- [.jshintrc](.rc/.jshintrc) for [JSHint](https://github.com/jshint/jshint)
