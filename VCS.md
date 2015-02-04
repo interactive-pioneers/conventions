@@ -29,6 +29,15 @@ commits should be avoided so producing a patch or merging code remains reasonabl
 2. IDE metadata, e.g. `/nbproject` for NetBeans
 3. Runtime data, e.g. `wp-content/uploads` for Wordpress
 
+### Branching
+
+1. Every feature should be developed in its own feature branch referring:
+  1. to feature;
+  2. to ticket number involved
+  e.g. `feature/advanced-combobox-<ticket number>`
+2. Every fix should be developed in its own fix branch, similarly to pt. 1, e.g. `fix/combobox-visual-flaw-<ticket number>`
+3. Every feature and fix branch should be deleted locally and remotely as soon as the related ticket is closed
+
 ### Tagging
 
 1. __Every release has a tag__. No release is made without a tag. Every current and future member of the team needs to be able to identify what was the exact state of the release.
