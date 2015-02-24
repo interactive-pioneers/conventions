@@ -6,5 +6,5 @@ Coding conventions for various technologies and frameworks follow the generic in
 - [HTML](HTML.md)
 - [CSS](CSS.md)
 - [JavaScript](JavaScript.md)
-- Ruby
+- [Ruby](Ruby.md)
 - PHP
