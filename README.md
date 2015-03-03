@@ -11,7 +11,7 @@ Conventions for development and workflows across web application development tec
   - [HTML](HTML.md)
   - [CSS](CSS.md)
   - [JavaScript](JavaScript.md)
-  - Ruby
+  - [Ruby](Ruby.md)
   - PHP
 - Documentation
 - QA
