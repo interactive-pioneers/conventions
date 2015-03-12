@@ -1,14 +1,15 @@
 # HTML Coding Convention
 
 - Use semantic markup
-- Use classes for styling, IDs for JavaScript hooks
+- Use classes for styling, IDs for Javascript hooks
+- If classes are used for Javascript prefix them with js- even if the result is e.g. `class="portfolio__item js-portfolio__item"`
 - __BEM Naming convention__
   BEM naming convention is used to give meaning and relations to css classes. Use in the following manner:
   - `.block`
   - `.block__element`
   - `.block--modifier`
 
-  E.g. `<div class="portfolio__entry portfolio__entry--active"></div>`
+  BEM modifiers are added on top of the base class e.g. `class="portfolio__item portfolio__item--active`
   For more see [BEM explained by Harry Roberts](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 - __Attribute order__
   HTML attributes should follow this order for easier reading and avoiding duplicates

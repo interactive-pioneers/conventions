@@ -7,7 +7,7 @@
 - Use REMs for font declarations
 - Images/icons inserted via CSS should feature a fallback text for screen readers
 - __Structure__
-  CSS is structured in the following folders: (as per [Harry Roberts ITCSS](itcss.io))
+  CSS is structured in the following folders: (as per [Harry Roberts ITCSS](http://itcss.io))
   1. __Settings__: Global variables, config switches
   2. __Tools__: Default mixins and functions
   3. __Generic__: Ground-zero styles (Normalize.css, resets, box-sizing)
