@@ -47,3 +47,21 @@
       text-align: right;
   }
   ```
+- __Nesting in preprocessors__
+  1. Remember not to nest deeper than three levels
+  2. Leave an empty line between a rule and a nested element
+  ```css
+  .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: none;
+
+    &__open {
+      display: block;
+    }
+  }
+  ```
