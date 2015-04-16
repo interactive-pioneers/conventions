@@ -1,6 +1,4 @@
 # JavaScript
 
-- `'use strict';` mode
-- Use JSHint for linting
-- Use inline comments where it's sensible, block comments for functions and plugins
-- Always use closure
+- [JSHint](http://jshint.com/) and [JSCS](http://jscs.info/) for quality control
+- Follow the [Google style guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
