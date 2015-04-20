@@ -6,6 +6,13 @@
 - Avoid `margin-top` and `margin-bottom` on the same element. Elements should always push in one direction (preferably downwards)
 - Use REMs for font declarations
 - Images/icons inserted via CSS should feature a fallback text for screen readers
+- Single line declarations should only be used for a single value
+```css 
+/* correct */
+body { background: white; } 
+/* false */
+body { background: white; color: black; }
+```
 - __Structure__
   CSS is structured in the following folders: (as per [Harry Roberts ITCSS](http://itcss.io))
   1. __Settings__: Global variables, config switches
