@@ -7,6 +7,7 @@
 - Use REMs for font declarations
 - Images/icons inserted via CSS should feature a fallback text for screen readers
 - Single line declarations should only be used for a single value
+- For information on BEM see [HTML](HTML.md)
 ```css 
 /* correct */
 body { background: white; } 
