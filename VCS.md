@@ -2,6 +2,9 @@
 
 ## Git
 
+1. Setup
+  1. Please add your full name to your git credentials: [set up git](https://help.github.com/articles/set-up-git/)
+
 ### Commits
 
 1. __No mammoth commits__. Every commit should be modular and feature or fix based. Complex
