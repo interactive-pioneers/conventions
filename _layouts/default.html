@@ -6,18 +6,16 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/main.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
 
   <body>
-    <p>Categories: 
-    {% for category in site.categories %}
-        {{ category | first }}
-    {% endfor %}
-    </p>
-    {{ content }}
-
+    {% include header.html %}
+    <main class="wrapper conventions">
+      {{ content }}
+    </main>
+    {% include footer.html %}
     {% include analytics.html %}
   </body>
 </html>

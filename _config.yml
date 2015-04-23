@@ -3,7 +3,11 @@ description: Coding Conventions and best practises for Interactive Pioneers
 author: David Setz
 baseurl: "/conventions"
 markdown: redcarpet
+permalink: "/:title"
 google_analytics:
+sass:
+  style: compressed
+  sass_dir: styles
 highlighter: pygments
 ## Exclude these files from your production _site
 exclude:
