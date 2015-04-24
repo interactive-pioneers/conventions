@@ -1,92 +1,18 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Conventions : Developer Conventions of Interactive Pioneers.">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Conventions</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/interactive-pioneers/conventions">View on GitHub</a>
-
-          <h1 id="project_title">Conventions</h1>
-          <h2 id="project_tagline">Developer Conventions of Interactive Pioneers.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/interactive-pioneers/conventions/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/interactive-pioneers/conventions/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="developer-conventions" class="anchor" href="#developer-conventions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developer Conventions</h1>
-
+---
+layout: default
+---
+<h1>Developer Conventions</h1>
 <p>Conventions for development and workflows across web application development technologies.</p>
-
-<h2>
-<a id="summary" class="anchor" href="#summary" aria-hidden="true"><span class="octicon octicon-link"></span></a>Summary</h2>
-
-<ul>
-<li><a href="VCS.md">Version Control</a></li>
-<li>Ticketing</li>
-<li>
-<a href="Conventions.md">Coding conventions</a>
-
-<ul>
-<li><a href="Basics.md">Basic concepts</a></li>
-<li><a href="HTML.md">HTML</a></li>
-<li><a href="CSS.md">CSS</a></li>
-<li><a href="JavaScript.md">JavaScript</a></li>
-<li><a href="Ruby.md">Ruby</a></li>
-<li>PHP</li>
+<h2>Summary</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+  <li class="entry">
+    <a href="{{ post.url }}">{{ post.title }} - {{ post.category }}</a>
+  </li>
+  {% endfor %}
 </ul>
-</li>
-<li>Documentation</li>
-<li>QA
-
-<ul>
-<li>Test-driven development</li>
-<li><a href="Bugtracking.md">Bug tracking</a></li>
-</ul>
-</li>
-<li><a href="Deployment.md">Deployment</a></li>
-</ul>
-
-<h2>
-<a id="various-configuration-files" class="anchor" href="#various-configuration-files" aria-hidden="true"><span class="octicon octicon-link"></span></a>Various configuration files</h2>
-
+<h2>Various configuration files</h2>
 <p>Following configuration files can be used in accordance to the coding conventions:</p>
-
 <ul>
-<li>
-<a href=".rc/.jshintrc">.jshintrc</a> for <a href="https://github.com/jshint/jshint">JSHint</a>
-</li>
+  <li><a href="https://github.com/interactive-pioneers/conventions/blob/master/.rc/.jshintrc">.jshintrc</a> for <a href="https://github.com/jshint/jshint">JSHint</a></li>
 </ul>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Conventions maintained by <a href="https://github.com/interactive-pioneers">interactive-pioneers</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>

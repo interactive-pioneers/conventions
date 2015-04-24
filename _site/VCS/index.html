@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Pioneers Conventions – Coding Conventions and best practises for Interactive Pioneers</title>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+    <link rel="alternate" type="application/rss+xml" title=" - Coding Conventions and best practises for Interactive Pioneers" href="/feed.xml" />
+  </head>
+
+  <body>
+    <header class="header" role="banner">
+  <div class="wrapper cf">
+    <div class="header__logo">
+      <img srcset="images/logo.png 1x, images/logo@2x.png 2x" alt="Interactive Pioneers Logo">
+    </div>
+    <div class="header__share heart">
+      <div class="heart__upper-left"><a href="#" title="Interactive Pioneers Facebook Page" target="_blank"><img class="heart__facebook" srcset="images/social_facebook.png 1x, images/social_facebook@2x.png 2x" alt="facebook" width="6" height="12"></a></div>
+      <div class="heart__upper-right"><a href="#" title="Interactive Pioneers Google Plus Page" target="_blank"><img class="heart__google" srcset="images/social_google.png 1x, images/social_google@2x.png 2x" alt="google" width="12" height="11"></a></div>
+      <div class="heart__bottom"><a href="#" title="Interactive Pioneers Twitter Page" target="_blank"><img class="heart__twitter" srcset="images/social_twitter.png 1x, images/social_twitter@2x.png 2x" alt="twitter" width="7" height="10"></a></div>
+    </div>
+    <nav class="header__menu" role="navigation">
+      <ul class="site-nav">
+        <li class="site-nav__li"><a class="site-nav__link hash-link" href="/">Home</a></li>
+        <li class="site-nav__li"><a class="site-nav__link" href="http://blog.interactive-pioneers.de" target="blank">Blog</a></li>
+        <li class="site-nav__li"><a class="site-nav__link" id="jobs__show" href="http://blog.interactive-pioneers.de/category/jobs">Jobs</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main class="wrapper conventions">
+      <h1>Version Control</h1>
+
+<h2>Git</h2>
+
+<ol>
+<li>Setup
+
+<ol>
+<li>Please add your full name to your git credentials: <a href="https://help.github.com/articles/set-up-git/">set up git</a></li>
+</ol></li>
+</ol>
+
+<h3>Commits</h3>
+
+<ol>
+<li><strong>No mammoth commits</strong>. Every commit should be modular and feature or fix based. Complex
+commits should be avoided so producing a patch or merging code remains reasonable and inexpensive.</li>
+<li><p><strong>Every commit has a comment</strong>. If no comment comes to mind, the whole commit should be questioned. Comment requirements:</p>
+
+<ol>
+<li>Comment is written in english.</li>
+<li>Comment starts with a capital letter.</li>
+<li>Comment is meaningful and consists of more than a single word or ticket reference, e.g. <code>PROJECT-213</code> is not allowed.</li>
+<li>Comment is written in imperative, present tense to comply with internal Git style. Examples:</li>
+<li><code>Add green outline to submit button</code></li>
+<li><code>Remove redundant JSON parsing method</code></li>
+<li><code>Update README source and distribution links</code></li>
+<li><code>Fix scrolling issue that prevents continuous scrolling of images</code></li>
+<li>Comment can be followed by a longer description (or ticket reference) after the first line, separated by an empty line, e.g.:
+``` text
+Fix scrolling issue that prevents continuous scrolling of images</li>
+</ol>
+
+<p>SCROLLER-123 Scrolling broken on large text areas
+http://bugs.domain.com/SCROLLER-123
+```</p></li>
+</ol>
+
+<h3>No-commits</h3>
+
+<ol>
+<li>Passwords unless harmless</li>
+<li>IDE metadata, e.g. <code>/nbproject</code> for NetBeans</li>
+<li>Runtime data, e.g. <code>wp-content/uploads</code> for Wordpress</li>
+</ol>
+
+<h3>Branching</h3>
+
+<ol>
+<li>Every feature should be developed in its own feature branch referring:
+
+<ol>
+<li>to feature;</li>
+<li>to ticket number involved
+e.g. <code>feature/advanced-combobox-&lt;ticket number&gt;</code></li>
+</ol></li>
+<li>Every fix should be developed in its own fix branch, similarly to pt. 1, e.g. <code>fix/combobox-visual-flaw-&lt;ticket number&gt;</code></li>
+<li>Every feature and fix branch should be deleted locally and remotely as soon as the related ticket is closed</li>
+</ol>
+
+<h3>Tagging</h3>
+
+<ol>
+<li><strong>Every release has a tag</strong>. No release is made without a tag. Every current and future member of the team needs to be able to identify what was the exact state of the release.</li>
+<li><strong>Tags are <em>semver</em> compatible</strong>. All tags follow <a href="http://semver.org">Semantic Versioning</a>. For example: <code>v0.1.2</code> or <code>v1.2.13</code>. Increasing a version number should depend on the nature of the update as by the concepts of <em>semver</em> and is extremely important for software that can become a dependency (RubyGems, Bower, NPM, etc.). <strong>Incorrect versioning of a library could break software that is depending on it!</strong></li>
+<li><strong>Prerelease tagging is OK</strong>. If you&#39;re not sure about the release and it needs additional evaluation, use a suffix so it becomes self-explanatory, e.g. <code>v1.2.3-a1</code>, <code>v0.2.4-b2</code>, <code>v2.2.9-rc3</code> for Alpha 1, Beta 2, Release Candidate 3, respectively.</li>
+</ol>
+
+    </main>
+    <footer class="footer tilted" role="contentinfo"><div class="wrapper"><div class="grid"><div class="adresses__full"><div class="grid__item palm--one-whole lap--one-half one-third"><h2>Kontakt</h2><address class="address grid"><p class="grid__item one-whole"><strong>Mail</strong> <a class="email-link hidden-link" href="javascript:openEmail('hello');">ed.sreenoip-evitcaretni@olleh</a></p><p class="grid__item one-whole"><strong>Telefon</strong> +49 241 91880 1</p><p class="grid__item one-whole"><strong>Fax</strong> +49 241 91880 239</p></address></div><div class="grid__item palm--one-whole lap--one-half one-third"><h2>Aachen</h2><address class="address grid"><p class="grid__item one-whole"><a href="https://www.google.de/maps/dir//Interactive+Pioneers+GmbH,+Belvedereallee+5,+52070+Aachen/@50.785712,6.1086654,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c09974019a62a5:0xf155da6586aacd7f!2m2!1d6.080579!2d50.786424" class="hidden-link" target="_blank">Drehturm Belvedere</a></p><p class="grid__item one-whole"><a href="https://www.google.de/maps/dir//Interactive+Pioneers+GmbH,+Belvedereallee+5,+52070+Aachen/@50.785712,6.1086654,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c09974019a62a5:0xf155da6586aacd7f!2m2!1d6.080579!2d50.786424" class="hidden-link" target="_blank">Belvedereallee 5</a></p><p class="grid__item one-whole"><a href="https://www.google.de/maps/dir//Interactive+Pioneers+GmbH,+Belvedereallee+5,+52070+Aachen/@50.785712,6.1086654,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c09974019a62a5:0xf155da6586aacd7f!2m2!1d6.080579!2d50.786424" class="hidden-link" target="_blank">D-52070 Aachen</a></p></address></div><div class="grid__item palm--one-whole lap--one-half one-third"><h2>Hamburg</h2><address class="address grid"><p class="grid__item one-whole"><a href="https://www.google.com/maps/place/Friedensallee+9,+22765+Hamburg,+Germany/" class="hidden-link" target="_blank">Zeisehalle</a></p><p class="grid__item one-whole"><a href="https://www.google.com/maps/place/Friedensallee+9,+22765+Hamburg,+Germany/" class="hidden-link" target="_blank">Friedensallee 9</a></p><p class="grid__item one-whole"><a href="https://www.google.com/maps/place/Friedensallee+9,+22765+Hamburg,+Germany/" class="hidden-link" target="_blank">D-22765 Hamburg</a></p></address></div></div><div class="adresses__pal"><div class="grid__item palm--one-whole lap--one-half one-third"><h2>Kontakt</h2><address class="address grid"><p class="grid__item one-whole"><strong>Mail</strong> <a class="email-link hidden-link" href="javascript:openEmail('hello');">ed.sreenoip-evitcaretni@olleh</a></p><p class="grid__item one-whole"><strong>Telefon</strong> +49 241 91880 1</p><p class="grid__item one-whole"><strong>Fax</strong> +49 241 91880 239</p></address></div><div class="grid__item palm--one-whole lap--one-half one-third"><h2></h2><address class="address grid"></address></div><div class="grid__item palm--one-whole lap--one-half one-third"><h2>Aachen</h2><address class="address grid"><p class="grid__item one-whole"><a href="https://www.google.de/maps/dir//Interactive+Pioneers+GmbH,+Belvedereallee+5,+52070+Aachen/@50.785712,6.1086654,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c09974019a62a5:0xf155da6586aacd7f!2m2!1d6.080579!2d50.786424" class="hidden-link" target="_blank">Drehturm Belvedere</a></p><p class="grid__item one-whole"><a href="https://www.google.de/maps/dir//Interactive+Pioneers+GmbH,+Belvedereallee+5,+52070+Aachen/@50.785712,6.1086654,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c09974019a62a5:0xf155da6586aacd7f!2m2!1d6.080579!2d50.786424" class="hidden-link" target="_blank">Belvedereallee 5</a></p><p class="grid__item one-whole"><a href="https://www.google.de/maps/dir//Interactive+Pioneers+GmbH,+Belvedereallee+5,+52070+Aachen/@50.785712,6.1086654,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c09974019a62a5:0xf155da6586aacd7f!2m2!1d6.080579!2d50.786424" class="hidden-link" target="_blank">D-52070 Aachen</a></p></address></div><div class="grid__item palm--one-whole lap--one-half one-third"><h2>Hamburg</h2><address class="address grid"><p class="grid__item one-whole"><a href="https://www.google.com/maps/place/Friedensallee+9,+22765+Hamburg,+Germany/" class="hidden-link" target="_blank">Zeisehalle</a></p><p class="grid__item one-whole"><a href="https://www.google.com/maps/place/Friedensallee+9,+22765+Hamburg,+Germany/" class="hidden-link" target="_blank">Friedensallee 9</a></p><p class="grid__item one-whole"><a href="https://www.google.com/maps/place/Friedensallee+9,+22765+Hamburg,+Germany/" class="hidden-link" target="_blank">D-22765 Hamburg</a></p></address></div></div></div><div class="footer__rest"><hr><div class="grid"><nav class="grid__item one-whole desk--five-eighths" role="navigation"><ul class="site-nav site-nav--narrow site-nav--legal"><li class="site-nav__li"><a class="site-nav__link" href="http://blog.interactive-pioneers.de/impressum/" target="blank">Impressum</a></li><li class="site-nav__li"><a class="site-nav__link" href="http://www.interactive-pioneers.de/AGB.pdf" target="blank">AGB</a></li><li class="site-nav__li"><a class="site-nav__link" href="http://blog.interactive-pioneers.de" target="blank">Blog</a></li><li class="site-nav__li"><a class="site-nav__link" id="jobs__show--footer" href="http://blog.interactive-pioneers.de/category/jobs">Jobs</a></li><li class="site-nav__li"><a class="site-nav__link" href="http://blog.interactive-pioneers.de/category/presse/" target="blank">Presse</a></li><li class="site-nav__li"><a class="site-nav__link" href="http://www.powerflasher.de" target="blank">Powerflasher</a></li><li class="site-nav__li"><a class="site-nav__link" href="http://fdt.powerflasher.com/" target="blank">FDT</a></li></ul></nav><div class="grid__item one-whole desk--three-eighths cf"><ul class="site-nav site-nav--narrow site-nav--icons"><li class="site-nav__li"><a class="site-nav__link social-icon social-icon--facebook" href="https://www.facebook.com/Interactive.Pioneers" target="blank">Facebook</a></li><li class="site-nav__li"><a class="site-nav__link social-icon social-icon--twitter" href="https://twitter.com/i_pioneers" target="blank">Twitter</a></li><li class="site-nav__li"><a class="site-nav__link social-icon social-icon--google" href="https://plus.google.com/109515289931469085607/posts" target="blank">Google Plus</a></li><li class="site-nav__li"><a class="site-nav__link social-icon social-icon--vimeo" href="http://vimeo.com/channels/196868" target="blank">Vimeo</a></li><li class="site-nav__li"><a class="site-nav__link social-icon social-icon--xing" href="https://www.xing.com/companies/interactivepioneersgmbh" target="blank">Xing</a></li><li class="site-nav__li"><a class="site-nav__link social-icon social-icon--linked" href="https://www.linkedin.com/company/interactive-pioneers" target="blank">Linked In</a></li><li class="site-nav__li"><a class="site-nav__link social-icon social-icon--youtube" href="https://www.youtube.com/user/InteractivePioneers" target="blank">YouTube</a></li></ul></div></div></div></div></footer>
+
+    
+  </body>
+</html>
