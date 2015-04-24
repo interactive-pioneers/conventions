@@ -5,6 +5,14 @@
   list-style: none;
 }
 
+.site-nav__link {
+  text-decoration: none;
+}
+
+.site-nav__link:hover {
+  text-decoration: none;
+}
+
 .site-nav__li {
   display: inline-block;
   margin-left: $base-spacing-unit * 2;
@@ -26,6 +34,20 @@
     vertical-align: super;
 
     font-size: 0;
+  }
+}
+
+@media all and ( min-width: 850px ) {
+  .no-touch .site-nav__highlight {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 0;
+    height: 1px;
+
+    background: $blue;
+
+    transition: 0.3s all ease-in-out;
   }
 }
 
@@ -52,5 +74,6 @@
   
   .site-nav--icons {
     float: none;
+    text-align: center;
   }
 }

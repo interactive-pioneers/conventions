@@ -29,6 +29,15 @@
   }
 }
 
+.adresses__pal {
+  display: none;
+}
+
+.footer {
+  background: $light-grey;
+  padding-bottom: 45px;
+}
+
 .tilted {
   position: relative;
 
@@ -48,6 +57,10 @@
 .vertical-align {
   display: flex;
   align-items: center;
+}
+
+iframe[name="google_conversion_frame"] {
+  display: none;
 }
 
 /* margins to make space for tilted backgrounds */
@@ -76,5 +89,22 @@ hr, .hr {
 @media all and ( max-width: $max-width - 1 ) {
   .wrapper {
       padding: 0 20px;
+  }
+}
+
+@media only all and ( max-width: 600px ) {
+  .wrapper--video {
+    margin-bottom: $base-spacing-unit * 4;
+    margin-top: $base-spacing-unit *2;
+  }
+}
+
+@media all and (max-width: 839px) {
+  .adresses__pal {
+    display: initial;
+  }
+
+  .adresses__full {
+    display: none;
   }
 }
