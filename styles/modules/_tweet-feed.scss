@@ -14,7 +14,7 @@ $height: 295px;
   letter-spacing: 0;
   @include font-size( 35px, false );
   line-height: 40px;
-  @extend %font-bold;
+  @extend %font--bold;
 }
 
 .tweets__user {
