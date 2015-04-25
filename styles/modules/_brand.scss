@@ -77,3 +77,10 @@
     font-size: 40px;
   }
 }
+
+@media only all and ( max-width: 600px ) {
+  .brand {
+    margin-bottom: $base-spacing-unit * 4;
+  }
+}
+

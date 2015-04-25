@@ -1,0 +1,12 @@
+.award__entry__thumb {
+  transform: scale( 1 );
+  transition: 0.2s transform linear;
+}
+
+.no-touch .award__entry:hover {
+
+  .award__entry__thumb {
+    transform: scale( 1.1 );
+    transition: 1s transform linear;
+  }
+}

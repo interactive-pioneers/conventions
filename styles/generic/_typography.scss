@@ -65,7 +65,7 @@ p, .p {
   color: $dark-grey;
   letter-spacing: 0;
   @include font-size( $delta, false );
-  line-height: 2;
+  line-height: 1.9;
   @extend %font;
 }
 
@@ -112,3 +112,8 @@ a, .a {
   }
 }
 
+@media only all and ( max-width: 635px ) {
+  p, .p {
+    line-height: 1.5;
+  }
+}

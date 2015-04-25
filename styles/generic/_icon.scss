@@ -69,3 +69,69 @@
     background-size: 158px 30px;
   }
 }
+
+@media only all and ( max-width: 635px ) {
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 316px 60px;
+
+    background-image: url( "#{$image-path}/social_icons_retina.png" );
+  }
+
+  .social-icon--facebook {
+    background-position: 0 0;
+
+    &:hover {
+      background-position: 0 30px;
+    }
+  }
+
+  .social-icon--twitter {
+    background-position: -40px 0;
+
+    &:hover {
+      background-position: -40px 30px;
+    }
+  }
+
+  .social-icon--google {
+    background-position: -92px 0;
+
+    &:hover {
+      background-position: -92px 30px;
+    }
+  }
+
+  .social-icon--vimeo {
+    background-position: -140px 0;
+
+    &:hover {
+      background-position: -140px 30px;
+    }
+  }
+
+  .social-icon--xing {
+    background-position: -188px 0;
+
+    &:hover {
+      background-position: -188px 30px;
+    }
+  }
+
+  .social-icon--linked {
+    background-position: -236px 0;
+
+    &:hover {
+      background-position: -236px 30px;
+    }
+  }
+
+  .social-icon--youtube {
+    background-position: -286px 0;
+
+    &:hover {
+      background-position: -286px 30px;
+    }
+  }
+}
