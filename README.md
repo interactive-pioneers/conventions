@@ -1,5 +1,4 @@
 # Developer Conventions
-
 Conventions for development and workflows across web application development technologies.
 
 ## Adding a new category
@@ -16,10 +15,14 @@ title: Javascript
 category: Coding conventions
 ---
 ```
-
-
 ## Sorting categories
 - Categories occur in the order of the posts first using it, because a specific order is not required right now
+
+## Development setup
+- `gem install jekyll`
+- `bundle install`
+- `jekyll serve --baseurl""`
+- open http://0.0.0.0:4000
 
 ## Styling
 - All convention specific styles are in `_conventions.scss`.
