@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Deployment to servers
+category: tooling
 ---
 
 # Deployment to servers
