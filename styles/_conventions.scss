@@ -1,7 +1,33 @@
 .conventions {
   margin-bottom: 150px;
 
-  h3 {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    margin: 0 0 10px;
+    padding: 0 0 0 10px;
+
+    list-style-type: none;
+  }
+
+  li {
+    color: #7C7C7C;
+    letter-spacing: 0px;
+    font-size: 0.9375rem;
+    line-height: 1.9;
+  }
+}
+
+.summary {
+  margin-bottom: 20px;
+
+  &__headline {
     margin: 0 0 20px;
     color: #00a3d2;
     letter-spacing: 0;
@@ -10,10 +36,18 @@
     line-height: 1.2;
   }
 
-  ul {
-    margin: 0 0 50px;
-    padding: 0;
+  &__subline {
+    margin-bottom: 5px;
 
-    list-style-type: none;
+    color: #7C7C7C;
+    letter-spacing: 0;
+    font-size: 18px;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    text-transform: capitalize;
   }
+}
+
+.wrapper--small {
+  max-width: 600px;
 }

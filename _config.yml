@@ -1,7 +1,6 @@
 title: Interactive Pioneers Conventions
 description: Coding Conventions and best practises for Interactive Pioneers
 author: David Setz
-baseurl: "/conventions"
 markdown: redcarpet
 permalink: "/:title"
 google_analytics:
