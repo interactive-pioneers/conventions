@@ -77,8 +77,6 @@ GEM
     jekyll-sitemap (0.8.1)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    jekyll_inline_highlight (2.0)
-      jekyll (~> 2.5)
     jemoji (0.4.0)
       gemoji (~> 2.0)
       html-pipeline (~> 1.9)
@@ -126,4 +124,3 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll_inline_highlight
