@@ -25,7 +25,7 @@ GEM
     github-pages (34)
       RedCloth (= 4.2.9)
       github-pages-health-check (~> 0.2)
-      jekyll (= 2.4.0)
+      jekyll (= 2.5.0)
       jekyll-coffeescript (= 1.0.1)
       jekyll-mentions (= 0.2.1)
       jekyll-redirect-from (= 0.6.2)
@@ -48,7 +48,7 @@ GEM
       activesupport (>= 2)
       nokogiri (~> 1.4)
     i18n (0.7.0)
-    jekyll (2.4.0)
+    jekyll (2.5.0)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
       jekyll-coffeescript (~> 1.0)
@@ -77,6 +77,8 @@ GEM
     jekyll-sitemap (0.8.1)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
+    jekyll_inline_highlight (2.0)
+      jekyll (~> 2.5)
     jemoji (0.4.0)
       gemoji (~> 2.0)
       html-pipeline (~> 1.9)
@@ -124,3 +126,4 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll_inline_highlight
