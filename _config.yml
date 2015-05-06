@@ -16,3 +16,5 @@ exclude:
   - README.md
 include:
   - .jshintrc
+gems:
+  - jekyll_inline_highlight
