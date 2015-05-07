@@ -8,7 +8,7 @@ category: tooling
 
 Deployment to servers should always be done with universal encapsulated `deploy`.
 
-## Important
+<h2 id="important">Important</h2>
 
 1. Keys for the deploy user can be obtained from Dev Lead or KeePass, e.g. from `Dev server` storage.
 2. Any project should always feature staging system that can be used for production-like testing.

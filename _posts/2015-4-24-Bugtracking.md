@@ -8,7 +8,7 @@ category: QA
 
 This document describes bug/issue tracking and reporting requirements.
 
-## Bug tracking
+<h2 id="bug-tracking">Bug tracking</h2>
 
 Use of issue/bug tracking system is strongly advised.
 
@@ -17,11 +17,11 @@ Recommendations:
 - [Bugzilla](https://bugzilla.mozilla.org)
 - [Trac](http://trac.edgewall.org)
 
-## How to report a bug?
+<h2 id="how-to-report-a-bug">How to report a bug?</h2>
 
 Every bug has to be reported in a format that allows to easily understand and reproduce an issue, namely:
 
-### Subject
+<h3 id="subject">Subject</h3>
 Subject of the bug report must be descriptive and short.
 
 __Good examples__:
@@ -34,7 +34,7 @@ Bad examples:
 - `My computer does not display it`
 - `Crash`
 
-### Body
+<h3 id="body">Body</h3>
 Every bug report should be described in 3 sections:
 - How to reproduce it
 - What happened
@@ -57,7 +57,7 @@ Bad example:
 Something went wrong, it's no more working.
 ```
 
-### Additional information
+<h3 id="additional-information">Additional information</h3>
 It's strongly encouraged that a bug report includes max. possible information about the platform it appeared on.
 
 If there are fields like `Environment` or `Operating system`, they should be filled in.

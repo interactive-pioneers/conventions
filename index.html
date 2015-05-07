@@ -6,7 +6,7 @@ layout: default
 <div class="summary">
   <h2 class="summary__headline">Summary</h2>
   {% for category in site.categories %}
-  <h3 class="summary__subline">{{ category | first }}</h3>
+  <h3 class="summary__subline" id="{{ category | first }}">{{ category | first }}</h3>
     <ul>
     {% for posts in category %}
       {% for post in posts %}
