@@ -128,19 +128,15 @@ linters:
     min_properties: 1
     separate_groups: true
     order:
-      - content
-      - quotes
-      - counter-reset
-      - counter-increment
       - # positioning
       - position
       - top
       - right
       - bottom
       - left
+      - z-index
       - float
       - clear
-      - z-index
       - # display, layout modes & box-model
       - display
       - overflow
