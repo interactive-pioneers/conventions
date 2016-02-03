@@ -16,3 +16,4 @@ exclude:
   - README.md
 include:
   - .jshintrc
+  - .scss-lint.yml

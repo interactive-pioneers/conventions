@@ -2,7 +2,7 @@ scss_files: "**/*.scss"
 
 # exclude third party libs
 exclude:
-  - # path to file
+  #- 'path/to/file.scss'
 
 linters:
   BangFormat:
