@@ -1,7 +1,7 @@
 scss_files: "**/*.scss"
 
 # exclude third party libs
-exclude:
+#exclude:
   #- 'path/to/file.scss'
 
 linters:
