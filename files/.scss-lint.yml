@@ -1,8 +1,4 @@
-scss_files: "**/*.scss"
-
-# exclude third party libs
-exclude:
-  #- 'path/to/file.scss'
+scss_files: '**/*.scss'
 
 linters:
   BangFormat:
@@ -16,7 +12,10 @@ linters:
 
   BorderZero:
     enabled: true
-    convention: zero # or `none`
+    convention: zero # or 'none'
+
+  ChainedClasses:
+    enabled: false
 
   ColorKeyword:
     enabled: true
@@ -32,13 +31,20 @@ linters:
 
   DeclarationOrder:
     enabled: true
-
-  # enable support for older browser (calc)
-  DuplicateProperty:
+  
+  # scss-lint:disable control comments should be preceded by a comment explaining why these linters are being disabled for this file.
+  # disabled because not yet supported by sass-lint
+  DisableLinterReason:
     enabled: false
 
+  # ignore_consecutive option not yet supported by sass-lint
+  DuplicateProperty:
+    enabled: false
+    ignore_consecutive: true
+
+  # disabled because not yet supported by sass-lint
   ElsePlacement:
-    enabled: true
+    enabled: false
     style: same_line # or 'new_line'
 
   EmptyLineBetweenBlocks:
@@ -87,9 +93,13 @@ linters:
     enabled: true
     style: include_zero # or 'exclude_zero'
 
+  LengthVariable:
+    enabled: false
+
   MergeableSelector:
     enabled: true
     force_nesting: false
+    # whitelist:
 
   NameFormat:
     enabled: false
@@ -104,6 +114,12 @@ linters:
   PlaceholderInExtend:
     enabled: true
 
+  PrivateNamingConvention:
+    enabled: false
+    prefix: _
+
+  # Limit the number of properties in a rule set.
+  # not yet supported by sass-lint
   PropertyCount:
     enabled: false
     include_nested: false
@@ -305,19 +321,23 @@ linters:
     enabled: true
     extra_properties: []
 
+  PseudoElement:
+    enable: true
+
   QualifyingElement:
     enabled: true
     allow_element_with_attribute: true
     allow_element_with_class: false
     allow_element_with_id: false
 
+  # not yet supported by sass-lint
   SelectorDepth:
-    enabled: true
+    enabled: false
     max_depth: 3
 
   SelectorFormat:
     enabled: false
-    convention: hyphenated_lowercase # or 'strict_BEM', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
+    convention: hyphenated_BEM # or 'strict_BEM', or 'hyphenated_lowercase', or 'snake_case', or 'camel_case', or a regex pattern
 
   Shorthand:
     enabled: false
@@ -333,12 +353,28 @@ linters:
   SpaceAfterComma:
     enabled: true
 
+  # disabled because not yet supported by sass-lint
+  SpaceAfterComment:
+    enabled: false
+    style: one_space
+
   SpaceAfterPropertyColon:
     enabled: true
     style: one_space # or 'no_space', or 'at_least_one_space', or 'aligned'
 
   SpaceAfterPropertyName:
     enabled: true
+
+  SpaceAfterVariableColon:
+    enabled: true
+    style: one_space
+
+  SpaceAfterVariableName:
+    enabled: true
+
+  SpaceAroundOperator:
+    enabled: true
+    style: one_space
 
   SpaceBeforeBrace:
     enabled: true
@@ -362,11 +398,16 @@ linters:
   TrailingZero:
     enabled: false
 
+  TransitionAll:
+    enabled: true
+
   UnnecessaryMantissa:
     enabled: true
 
+  # Do not use parent selector references (&) when they would otherwise be unnecessary.
+  # disabled because not yet supported by sass-lint
   UnnecessaryParentReference:
-    enabled: true
+    enabled: false
 
   UrlFormat:
     enabled: true
