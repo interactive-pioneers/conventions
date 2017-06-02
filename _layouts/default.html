@@ -11,10 +11,12 @@
   </head>
 
   <body>
-    {% include header.html %}
-    <main class="wrapper wrapper--small conventions">
-      {{ content }}
-    </main>
+    <div class="container">
+      {% include header.html %}
+      <main class="wrapper wrapper--small conventions">
+        {{ content }}
+      </main>
+    </div>
     {% include footer.html %}
     {% include analytics.html %}
   </body>
