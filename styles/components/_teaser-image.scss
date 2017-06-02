@@ -1,0 +1,17 @@
+.teaser-image {
+  &--left {
+    float: left;
+    margin: 0 10px 0px 0;
+
+    &::after {
+      @extend %clearfix;
+    }
+  }
+
+  &--w96 {
+    height: auto;
+    max-height: 96px;
+    max-width: 96px;
+    width: auto;
+  }
+}

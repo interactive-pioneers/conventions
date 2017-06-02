@@ -1,45 +1,36 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
-/**
- * Normalize first
- */
-@import "normalize";
-@import "vendor/css_wizzardry_grids";
-@import "vendor/slick";
+@charset "utf-8";
 
-/**
- * Variables & mixins
- */
-@import "generic/variables";
-@import "generic/mixins";
-@import "generic/icon";
+@import 'settings/typography';
+@import 'settings/layout';
+@import 'settings/colours';
+@import 'settings/breakpoints';
 
-/**
- * Generic definitions
- */
-@import "generic/clearfix";
-@import "generic/typography";
-@import "generic/layout";
-@import "generic/helper";
+@import 'vendor/normalise';
+@import 'vendor/grid';
+@import 'vendor/syntax-highlighting';
 
-/**
- * Modules
- */
-@import "modules/jobs";
-@import "modules/header";
-@import "modules/site-nav";
-@import "modules/brand";
-@import "modules/about";
-@import "modules/tweet-feed";
-@import "modules/portfolio";
-@import "modules/footer";
-@import "modules/address";
-@import "modules/heart";
-@import "modules/slider";
+@import 'generic/media-queries';
+@import 'generic/wrapper';
+@import 'generic/icon';
 
-/**
- * Conventions
- */
-@import "conventions";
-@import "syntax";
+@import 'tools/clearfix';
+@import 'tools/vertical-rhythm';
+
+@import 'base/body';
+@import 'base/typography';
+@import 'base/media';
+@import 'base/list';
+@import 'base/link';
+@import 'base/heading';
+@import 'base/block-element';
+
+@import 'components/content';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/post';
+@import 'components/teaser-image';
+@import 'components/post-image';
+@import 'components/site-nav';

@@ -1,0 +1,14 @@
+$text-color: #111;
+$background-color: #fdfdfd;
+$brand-color: #2a7ae2;
+
+$grey-color: #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$white:             rgb( 255, 255, 255 );
+$blue:              rgb( 0, 163, 210 );
+$blue--transparent: rgba( 0, 163, 210, 0.8 );
+$light-grey:        rgb( 228, 228, 228 );
+$medium-grey:       rgb( 201, 201, 201 );
+$dark-grey:         rgb( 124, 124, 124 );
