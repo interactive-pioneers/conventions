@@ -1,19 +1,2 @@
-title: Interactive Pioneers Conventions
-description: Coding Conventions and best practices for Interactive Pioneers
-author: David Setz
-markdown: redcarpet
-permalink: "/:title"
-google_analytics:
-sass:
-  style: compressed
-  sass_dir: styles
-highlighter: pygments
-## Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-include:
-  - .jshintrc
-  - .scss-lint.yml
+title: Interactive Pioneers Web Development Conventions
+description: Coding conventions best practices for web development
