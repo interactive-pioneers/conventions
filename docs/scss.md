@@ -2,7 +2,7 @@
 
 ## Rules
 
-* Don't use spaghetti selectors e.g. `header nav ul li a`. NEVER go deeper than three levels!
+* Avoid use of spaghetti selectors (e.g. `header nav ul li a`) if possible. __NEVER go deeper than three levels!__
 * Don't use overly qualified selectors e.g. `.block .element` => `.block__element` should always reside inside `.block` - follow BEM naming (for more information on BEM see [HTML](/HTML))
 * When using calc(), add a comment on the logic behind it e.g. `width: calc(100% - 5px) /* - 5px pixel to account for the border */`
 * Avoid `margin-top` and `margin-bottom` on the same element. Elements should always push in one direction (preferably downwards)
@@ -37,7 +37,7 @@
   7. Browser UI
   8. Other
 
-  A tool that can be used to automatically manage declaration order is [CSScomb](http://csscomb.com/)
+  A tool that can be used to automatically manage declaration order is [CSScomb](http://csscomb.com/).
 
   ```css
   .selector {
