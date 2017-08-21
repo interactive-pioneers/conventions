@@ -1,6 +1,7 @@
 files:
   include: '**/*.scss'
   #ignore:
+  #  - 'path/to/file.scss'
 options:
   formatter: stylish
   merge-default-rules: false
