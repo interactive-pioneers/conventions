@@ -1,5 +1,5 @@
 # Interactive Pioneers Web Developement Conventions
-Coding conventions best practices for web development:
+Coding conventions & best practices for web development:
 
 - [Basic Concepts](basics.md)
 
