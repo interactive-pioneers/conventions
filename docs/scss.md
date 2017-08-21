@@ -8,21 +8,21 @@
 
 # CSS Coding conventions
 
-- Don't use spaghetti selectors e.g. ```header nav ul li a```. NEVER go deeper than three levels!
-- Don't use overly qualified selectors e.g. ```.block .element``` => ```.block__element``` should always reside inside <code class="highlight">.block<code class="highlight">
-- When using calc(), add a comment on the logic behind it e.g. <code class="highlight">calc( 100% - 5px) /* - 5px pixel to account for the border */</code>
-- Avoid <code class="highlight">margin-top</code> and <code class="highlight">margin-bottom<code class="highlight"> on the same element. Elements should always push in one direction (preferably downwards)
+- Don't use spaghetti selectors e.g. `header nav ul li a`. NEVER go deeper than three levels!
+- Don't use overly qualified selectors e.g. `.block .element` => `.block__element` should always reside inside <code class="highlight">.block<code class="highlight">
+- When using calc(), add a comment on the logic behind it e.g. `width: calc(100% - 5px) /* - 5px pixel to account for the border */`
+- Avoid `margin-top` and `margin-bottom` on the same element. Elements should always push in one direction (preferably downwards)
 - Use REMs for font declarations
 - Use em unit (which is relative to the font-size) only where the given property really has a fixed relation to the element font-size defined by the design, otherwise use pixel (px) values
 - Images/icons inserted via CSS should feature a fallback text for screen readers
 - Single line declarations should only be used for a single value
 - For information on BEM see [HTML](/HTML)
-  {% highlight css linenos %}
-/* correct */
-body { background: white; }
-/* false */
-body { background: white; color: black; }
-{% endhighlight %}
+  ```css
+  /* correct */
+  body { background: white; }
+  /* false */
+  body { background: white; color: black; }
+  ```
 - __Structure__
   CSS is structured in the following folders: (as per [Harry Roberts ITCSS](http://itcss.io))
   1. __Settings__: Global variables, config switches

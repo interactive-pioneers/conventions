@@ -35,7 +35,7 @@ Every bug report should be described in 3 sections:
 - What should happen
 
 __Good example__:
-```
+
 Steps to reproduce:
   1. Open Email submission page
   2. Fill in all mandatory fields
@@ -44,12 +44,10 @@ Steps to reproduce:
 What happens: submission results in Error on empty email
 
 What should happen: submission should not result in Error on empty email as it is not a mandatory field
-```
 
 Bad example:
-```
-Something went wrong, it's no more working.
-```
+
+> Something went wrong, it's no more working.
 
 ## Additional information
 It's strongly encouraged that a bug report includes max. possible information about the platform it appeared on.
