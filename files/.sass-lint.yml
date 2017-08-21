@@ -1,5 +1,6 @@
 files:
   include: '**/*.scss'
+  #ignore:
 options:
   formatter: stylish
   merge-default-rules: false
@@ -67,7 +68,9 @@ rules:
     - 0
     - allow-leading-underscore: true
       convention: hyphenatedlowercase
-  mixins-before-declarations: 1
+  mixins-before-declarations:
+    - 1
+    - exclude: ['media-query', 'hover']
   nesting-depth:
     - 1
     - max-depth: 8
@@ -88,14 +91,14 @@ rules:
   no-mergeable-selectors: 1
   no-misspelled-properties:
     - 1
-    - extra-properties: []
+    - extra-properties: ['overflow-scrolling']
   no-qualifying-elements:
     - 1
     - allow-element-with-attribute: true
       allow-element-with-class: false
       allow-element-with-id: false
   no-trailing-whitespace: 1
-  no-trailing-zero: 1
+  no-trailing-zero: 0
   no-transition-all: 1
   no-universal-selectors: 0
   no-url-domains: 1
@@ -343,8 +346,8 @@ rules:
     - 1
     - include: true
   space-before-colon:
-    - 1
-    - include: true
+    - 0
+    - include: false
   space-between-parens:
     - 1
     - include: false
