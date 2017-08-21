@@ -1,7 +1,7 @@
 # Interactive Pioneers Web Developement Conventions
 Coding conventions best practices for web development:
 
-- [Basics](/docs/basics.md)
+- [Basic Concepts](/docs/basics.md)
 
 ## Languages
 

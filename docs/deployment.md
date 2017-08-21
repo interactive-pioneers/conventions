@@ -1,4 +1,4 @@
-# Deployment to servers
+# Deployment
 
 Deployment to servers should always be done with universal encapsulated `deploy`.
 

@@ -1,4 +1,4 @@
-# HTML Coding conventions
+# HTML Coding Conventions
 
 - Use semantic markup
 - Use classes for styling, IDs for Javascript hooks

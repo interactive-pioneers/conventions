@@ -1,4 +1,4 @@
-# Ruby Coding conventions
+# Ruby Coding Conventions
 
 - Code modularly, separate modules into gems
 - When using Ruby on Rails, respect its conventions and use MVC for better granularity

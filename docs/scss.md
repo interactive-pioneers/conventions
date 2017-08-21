@@ -1,4 +1,4 @@
-# SCSS / SASS coding conventions
+# SCSS / SASS Coding Conventions
 
 ## Rules
 
@@ -105,7 +105,7 @@
   - e.g `// sass-lint:disable no-important`
   - __Always add a comment explaining why you disabled the rule!__
 
-### scss-lint (depricated)
+### scss-lint (deprecated)
 
 - Configuration: [.scss-lint.yml](/files/.scss-lint.yml)
 - Repository: [https://github.com/brigade/scss-lint](https://github.com/brigade/scss-lint)
