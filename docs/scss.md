@@ -1,9 +1,10 @@
-# SCSS coding conventions
+# SCSS / SASS coding conventions
 
 ## Rules
 
 * Avoid use of spaghetti selectors (e.g. `header nav ul li a`) if possible. __NEVER go deeper than three levels!__
-* Don't use overly qualified selectors e.g. `.block .element` => `.block__element` should always reside inside `.block` - follow BEM naming (for more information on BEM see [HTML](/HTML))
+* Follow BEM naming (for more information on BEM see [HTML](/docs/html.md))
+* Don't use overly qualified selectors e.g. `.block .element` => `.block__element` should always reside inside `.block`
 * When using calc(), add a comment on the logic behind it e.g. `width: calc(100% - 5px) /* - 5px pixel to account for the border */`
 * Avoid `margin-top` and `margin-bottom` on the same element. Elements should always push in one direction (preferably downwards)
 * Use REMs for font declarations
@@ -96,8 +97,18 @@
 
 ## Linting
 
-- Configuration: [.scss-lint.yml](/files/.scss-lint.yml) for [scss-lint](https://github.com/brigade/scss-lint)
-- Full documentation: [scss-lint](https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md)
-- Disabling linters:
-  - [Documentation](https://github.com/brigade/scss-lint#disabling-linters-via-source)
-  - If you can't avoid an error add an inline or a file width exception and document why you added it.
+### sass-lint
+
+- Configuration: [.sass-lint.yml](/files/.sass-lint.yml) [Documentation](https://github.com/sasstools/sass-lint/tree/master/docs/rules)
+- Repository: [https://github.com/sasstools/sass-lint/](https://github.com/sasstools/sass-lint/)
+- Disabling linting rules:
+  - e.g `// sass-lint:disable no-important`
+  - __Always add a comment explaining why you disabled the rule!__
+
+### scss-lint (depricated)
+
+- Configuration: [.scss-lint.yml](/files/.scss-lint.yml)
+- Repository: [https://github.com/brigade/scss-lint](https://github.com/brigade/scss-lint)
+- Disabling linting rules:
+  - e.g `// scss-lint:disable ImportantRule` [Documentation](https://github.com/brigade/scss-lint#disabling-linters-via-source)
+  - __Always add a comment explaining why you disabled the rule!__

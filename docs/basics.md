@@ -1,4 +1,4 @@
-# Basic Concepts of Coding Conventions
+# Basic Concepts
 
 - __DRY__. Don't Repeat Yourself.
 - __Modular & reusable__.
