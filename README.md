@@ -1,5 +1,6 @@
 # Interactive Pioneers Web Developement Conventions
-Coding conventions best practices for web development:
+
+This repository documents and develops coding conventions and best practices for web development.
 
 [View our conventions!](docs/index.md)
 
