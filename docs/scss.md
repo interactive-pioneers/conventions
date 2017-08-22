@@ -8,7 +8,7 @@
 * When using calc(), add a comment on the logic behind it e.g. `width: calc(100% - 5px) /* - 5px pixel to account for the border */`
 * Avoid `margin-top` and `margin-bottom` on the same element. Elements should always push in one direction (preferably downwards)
 * Use REMs for font declarations
-* Images/icons inserted via CSS should feature a fallback text for screen readers
+* Images and icons inserted via CSS should feature a fallback text for screen readers
 * Single line declarations should only be used for a single value
 
   ```css

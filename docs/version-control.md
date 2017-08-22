@@ -2,29 +2,27 @@
 
 ## Git
 
-1. Setup
-  1. Please add your full name to your git credentials: [set up git](https://help.github.com/articles/set-up-git/)
+1. Setup: Please add your full name to your git credentials: [set up git](https://help.github.com/articles/set-up-git/)
 
 ## Commits
 
-1. __No mammoth commits__. Every commit should be modular and feature or fix based. Complex
-commits should be avoided so producing a patch or merging code remains reasonable and inexpensive.
+1. __No mammoth commits__. Every commit should be modular and feature or fix based. Complex commits should be avoided so producing a patch or merging code remains reasonable and inexpensive.
 2. __Every commit has a comment__. If no comment comes to mind, the whole commit should be questioned. Comment requirements:
-  1. Comment is written in english.
-  2. Comment starts with a capital letter.
-  3. Comment is meaningful and consists of more than a single word or ticket reference, e.g. `PROJECT-213` is not allowed.
-  4. Comment is written in imperative, present tense to comply with internal Git style. Examples:
+  * Comment is written in english.
+  * Comment starts with a capital letter.
+  * Comment is meaningful and consists of more than a single word or ticket reference, e.g. `PROJECT-213` is not allowed.
+  * Comment is written in imperative, present tense to comply with internal Git style. Examples:
     - `Add green outline to submit button`
     - `Remove redundant JSON parsing method`
     - `Update README source and distribution links`
     - `Fix scrolling issue that prevents continuous scrolling of images`
-  5. Comment can be followed by a longer description (or ticket reference) after the first line, separated by an empty line, e.g.:
-    {% highlight text %}
+  * Comment can be followed by a longer description (or ticket reference) after the first line, separated by an empty line, e.g.:
+    ```
     Fix scrolling issue that prevents continuous scrolling of images
 
     SCROLLER-123 Scrolling broken on large text areas
     http://bugs.domain.com/SCROLLER-123
-    {% endhighlight %}
+    ```
 
 ## No-commits
 

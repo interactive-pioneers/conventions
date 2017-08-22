@@ -2,7 +2,7 @@
 
 This document describes bug/issue tracking and reporting requirements.
 
-## Bug tracking
+## Tools
 
 Use of issue/bug tracking system is strongly advised.
 
