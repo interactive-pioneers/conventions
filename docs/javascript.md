@@ -1,6 +1,29 @@
 # JavaScript Coding Conventions
 
-We follow the [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml).
+Follow the [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml).
+
+## Additional Agreements
+
+* Avoid use of anonymous functions if possible
+  __good__:
+  ```javascript
+  function handleEvent() {
+    // do something
+  }
+
+  element.on('event', handleEvent);
+  ```
+
+  __bad__:
+  ```javascript
+  function handleEvent() {
+    //
+  }
+
+  element.on('event', function() {
+    // do something
+  });
+  ```
 
 ## Linters
 
