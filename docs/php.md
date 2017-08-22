@@ -6,10 +6,16 @@ We follow the [PSR-2](http://www.php-fig.org/psr/psr-2/) coding standard and the
 
 ## Linters
 
-Use `php -l` and [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer) with PSR-2 configuration:
+Use `$ php -l FILENAME` ([more](http://www.php.net/manual/en/features.commandline.options.php)) and [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer) with PSR-2 configuration:
 ```
-$ phpcs --standard=PSR2 path/to/file.php
+$ phpcs --standard=PSR2 FILENAME
 ```
+
+### Linter Plugins
+
+__Sublime Text:__
+- [SublimeLinter-php](https://github.com/SublimeLinter/SublimeLinter-php)
+- [SublimeLinter-phpcs](https://github.com/SublimeLinter/SublimeLinter-phpcs)
 
 ## Documentation
 
