@@ -6,7 +6,10 @@ We follow the [PSR-2](http://www.php-fig.org/psr/psr-2/) coding standard and the
 
 ## Linters
 
-Use `php -l` and [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer) with PSR-2 configuration!
+Use `php -l` and [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer) with PSR-2 configuration:
+```
+$ phpcs --standard=PSR2 path/to/file.php
+```
 
 ## Documentation
 
