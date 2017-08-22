@@ -1,4 +1,8 @@
 # JavaScript Coding Conventions
 
-- [JSHint](http://jshint.com/) and [JSCS](http://jscs.info/) for quality control
-- Follow the [Google style guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
+We follow the [Google JavaScript Style Guide](https://google.github.io/styleguide/javascriptguide.xml).
+
+## Linters
+
+Use [JSHint](http://jshint.com/) and [JSCS](http://jscs.info/)!
+Configuration files: [JSHint](/files/.jshintrc) | [JSCS](/files/.jscsrc)
