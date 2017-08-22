@@ -5,6 +5,7 @@ Follow the [Google JavaScript Style Guide](https://google.github.io/styleguide/j
 ## Additional Agreements
 
 * Avoid use of anonymous functions if possible
+
   __good__:
   ```javascript
   function handleEvent() {
