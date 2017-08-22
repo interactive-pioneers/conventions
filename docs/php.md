@@ -17,6 +17,10 @@ __Sublime Text:__
 - [SublimeLinter-php](https://github.com/SublimeLinter/SublimeLinter-php)
 - [SublimeLinter-phpcs](https://github.com/SublimeLinter/SublimeLinter-phpcs)
 
+__Atom:__
+- [AtomLinter/linter-php](https://github.com/AtomLinter/linter-php)
+- [AtomLinter/linter-phpcs](https://github.com/AtomLinter/linter-phpcs)
+
 ## Documentation
 
 There is no need for code documentation as long as descriptive method names are used in combination with parameter and output type hinting.
