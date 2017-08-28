@@ -36,3 +36,10 @@
   </div>
   ```
   See [schema.org](schema.org) and [schema creator](schema-creator.org).
+
+## Linting
+
+Use [HTMLHint](http://htmlhint.com/).
+Configuration file: [.htmlhintrc](/files/.htmlhintrc)
+
+[SublimeLinter-Plugin](https://github.com/mmaday/SublimeLinter-contrib-htmlhint)
