@@ -8,7 +8,6 @@
   "id-class-ad-disabled": true,
   "id-unique": true,
   "space-tab-mixed-disabled": "space",
-  "spec-char-escape": true,
   "src-not-empty": true,
   "style-disabled": true,
   "tag-pair": true,
