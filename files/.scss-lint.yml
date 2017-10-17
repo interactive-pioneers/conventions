@@ -226,6 +226,7 @@ linters:
       - # visual styles
       - visibility
       - opacity
+      - appearance
       - border-radius
       - border-top-left-radius
       - border-top-right-radius
@@ -253,8 +254,10 @@ linters:
       - background-origin
       - background-size
       - background-clip
+      - fill
       - box-shadow
       - filter
+      - backdrop-filter
       - # text styles
       - color
       - font

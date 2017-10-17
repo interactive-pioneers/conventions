@@ -199,6 +199,7 @@ rules:
         - null
         - visibility
         - opacity
+        - appearance
         - border-radius
         - border-top-left-radius
         - border-top-right-radius
@@ -226,8 +227,10 @@ rules:
         - background-origin
         - background-size
         - background-clip
+        - fill
         - box-shadow
         - filter
+        - backdrop-filter
         - null
         - color
         - font
