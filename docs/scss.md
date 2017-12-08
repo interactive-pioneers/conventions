@@ -99,7 +99,7 @@
 
 ### sass-lint
 
-- Configuration: [.sass-lint.yml](/files/.sass-lint.yml) [Documentation](https://github.com/sasstools/sass-lint/tree/master/docs/rules)
+- Configuration: [.sass-lint.yml](https://github.com/interactive-pioneers/linter-configuration/blob/master/files/.sass-lint.yml) [Documentation](https://github.com/sasstools/sass-lint/tree/master/docs/rules)
 - Repository: [https://github.com/sasstools/sass-lint/](https://github.com/sasstools/sass-lint/)
 - Disabling linting rules:
   - e.g `// sass-lint:disable no-important`
@@ -107,7 +107,7 @@
 
 ### scss-lint (deprecated)
 
-- Configuration: [.scss-lint.yml](/files/.scss-lint.yml)
+- Configuration: [.scss-lint.yml](https://github.com/interactive-pioneers/linter-configuration/blob/master/files/.scss-lint.yml)
 - Repository: [https://github.com/brigade/scss-lint](https://github.com/brigade/scss-lint)
 - Disabling linting rules:
   - e.g `// scss-lint:disable ImportantRule` [Documentation](https://github.com/brigade/scss-lint#disabling-linters-via-source)

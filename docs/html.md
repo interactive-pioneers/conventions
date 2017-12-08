@@ -40,7 +40,7 @@
 ## Linting
 
 Use [HTMLHint](http://htmlhint.com/).
-Configuration file: [.htmlhintrc](/files/.htmlhintrc)
+Configuration file: [.htmlhintrc](https://github.com/interactive-pioneers/linter-configuration/blob/master/files/.htmlhintrc)
 
 [SublimeLinter-Plugin](https://github.com/mmaday/SublimeLinter-contrib-htmlhint)
 [AtomLinter-Plugin](https://github.com/AtomLinter/linter-htmlhint)
